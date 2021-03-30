@@ -42,3 +42,7 @@ The following folders and his files compose the *Verilog* functions:
   - *ROM_shift.v*: Asynchronus ROM to perform the right shifts via fixed point multiplication.
   - *ROM_shift_init.txt*: Initial values from the ROM.
   - *IEEE754_AdderSubtract*: module to implement the IEEE-754 adder-subtraction.
+
+## Simulations
+The following pictures shows the simulation of the *IEEE754_Mult* and *IEEE754_AdderSubtract*. Note that how no rounding mode is set, the error between the original operator and the implented it somes times is not zero but closer to zero. For small values, as it happens in neural networks, the error is innapreciable, so this implemented functions work's well for neural networks purposes in fp32.
+
