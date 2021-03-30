@@ -2,7 +2,7 @@
 
 ## Description
 
-The following functions has been generated in order to save hardware resources in the implementation of OpenCL kernels. *ReLU* and *IdxShift* has only a few of hardware resources, so this functions also could be implemented in OpenCL. *IEEE754_Mult* and *IEEE754_AdderSubtract* implement the *(\*, +)* operators in the IEEE-754 standard. Contrasting the generated functions with the *Floating-Point IP Cores User Guide* functions of *ALTFP_MULT* and *ALTFP_ADD_SUB*, my functions has lower hardware resources and a greatest *fmax*. The following tables shows the *Quartus II* reports about hardware utilization and timing analisis.
+The following functions has been generated in order to save hardware resources in the implementation of OpenCL kernels. *ReLU* and *IdxShift* has only a few of hardware resources, so this functions also could be implemented in OpenCL. *IEEE754_Mult* and *IEEE754_AdderSubtract* implement the *(\*, +)* operators in the IEEE-754 standard without rounding mode set. Contrasting the generated functions with the *Floating-Point IP Cores User Guide* functions of *ALTFP_MULT* and *ALTFP_ADD_SUB*, my functions has lower hardware resources and a greatest *fmax*. The following tables shows the *Quartus II* reports about hardware utilization and timing analisis.
 
 #### Hardware utilization resources report
 
