@@ -23,3 +23,22 @@ The following functions has been generated in order to save hardware resources i
 |IEEE754_AdderSubtract| 580.05 | 851.79  | 2  |
 
 ## Files
+
+The following folders and his files composse the *Verilog* functions:
+- IdxShifter
+
+  - *IdxShifter.v*: module to multiply by 2 in fixed point. Implemented it via left shift.
+  
+- ReLU 
+
+  - *ReLU.v*: module to implement the ReLU function.
+
+- IEEE754_Mult
+
+  - *IEEE754_Mult.v*: module to implement the IEEE-754 multiplication.
+ 
+- IEEE754_AdderSubtract
+
+  - *ROM_shift.v*: Asynchronus ROM to perform the right shifts via fixed point multiplication.
+  - *ROM_shift_init.txt*: Initial values from the ROM.
+  - *IEEE754_AdderSubtract*: module to implement the IEEE-754 adder-subtraction.
