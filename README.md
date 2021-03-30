@@ -46,3 +46,8 @@ The following folders and his files compose the *Verilog* functions:
 ## Simulations
 The following pictures shows the simulation of the *IEEE754_Mult* and *IEEE754_AdderSubtract*. Note that how no rounding mode is set, the error between the original operator and the implented it somes times is not zero but closer to zero. For small values, as it happens in neural networks, the error is innapreciable, so this implemented functions work's well for neural networks purposes in fp32.
 
+#### IEEE754_Mult
+![picture](images/mult.png)
+
+#### IEEE754_AdderSubtract
+![picture](images/adder.png)
