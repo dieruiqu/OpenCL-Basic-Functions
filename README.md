@@ -24,7 +24,7 @@ The following functions has been generated in order to save hardware resources i
 
 ## Files
 
-The following folders and his files composse the *Verilog* functions:
+The following folders and his files compose the *Verilog* functions:
 - IdxShifter
 
   - *IdxShifter.v*: module to multiply by 2 in fixed point. Implemented it via left shift.
