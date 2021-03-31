@@ -50,12 +50,12 @@ The following pictures shows the simulation of the *IEEE754_Mult* and *IEEE754_A
 ###### Random test
 ![picture](images/mult.png)
 
-###### y(x) = $1000 \cdot cos(2x) + 1000 \cdot sin(5x)$
+###### $y(x) = 1000 \cdot cos(2x) + 1000 \cdot sin(5x)$
 ![picture](images/mult.png)
 
 #### IEEE754_AdderSubtract
 ###### Random test
 ![picture](images/adder.png)
 
-###### y(x) = $1000 \cdot cos(2x) + 1000 \cdot sin(5x)$
+###### $y(x) = 1000 \cdot cos(2x) + 1000 \cdot sin(5x)$
 ![picture](images/mult.png)
