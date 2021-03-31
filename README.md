@@ -6,7 +6,7 @@ The following functions has been generated in order to save hardware resources i
 
 #### Hardware utilization resources report
 
-|*Module*             | *ALM's* |*DSPs*|*Memory bit blocks*|*Registers*|
+|*Module*             | *ALMs* |*DSPs*|*Memory bit blocks*|*Registers*|
 |:--------------------|:-------:|:----:|:-----------------:|:---------:|
 |IdxShifter           |   16    |   0  |         0         |    64     |
 |ReLU                 |   17    |   0  |         0         |    62     |
